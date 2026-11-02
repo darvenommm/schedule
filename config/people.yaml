@@ -1,0 +1,99 @@
+people:
+    - last_name: Латута
+      first_name: Дмитрий
+      patronymic: Юрьевич
+      can_be_on_duty: true
+      completed_duties: 0
+      usually_goes_to_sirius: true
+      platoon: 1
+    - last_name: Бугаков
+      first_name: Данила
+      patronymic: Андреевич
+      can_be_on_duty: false
+      completed_duties: 0
+      usually_goes_to_sirius: false
+      platoon: 1
+    - last_name: Вишневский
+      first_name: Михаил
+      patronymic: Михайлович
+      can_be_on_duty: false
+      completed_duties: 0
+      usually_goes_to_sirius: false
+      platoon: 1
+    - last_name: Москалёв
+      first_name: Евгений
+      patronymic: Валентинович
+      can_be_on_duty: false
+      completed_duties: 0
+      usually_goes_to_sirius: true
+      platoon: 1
+    - last_name: Назаров
+      first_name: Кирилл
+      patronymic: Иванович
+      can_be_on_duty: true
+      completed_duties: 0
+      usually_goes_to_sirius: false
+      platoon: 1
+    - last_name: Фомин
+      first_name: Иван
+      patronymic: Андреевич
+      can_be_on_duty: false
+      completed_duties: 0
+      usually_goes_to_sirius: false
+      platoon: 1
+    - last_name: Захоженко
+      first_name: Степан
+      patronymic: Александрович
+      can_be_on_duty: true
+      completed_duties: 0
+      usually_goes_to_sirius: false
+      platoon: 1
+    - last_name: Роганов
+      first_name: Егор
+      patronymic: Владимирович
+      can_be_on_duty: false
+      completed_duties: 0
+      usually_goes_to_sirius: false
+      platoon: 2
+    - last_name: Сафин
+      first_name: Даниэль
+      patronymic: Филатович
+      can_be_on_duty: true
+      completed_duties: 0
+      usually_goes_to_sirius: false
+      platoon: 2
+    - last_name: Отрощенко
+      first_name: Антон
+      patronymic: Александрович
+      can_be_on_duty: true
+      completed_duties: 0
+      usually_goes_to_sirius: true
+      platoon: 2
+    - last_name: Никифоров
+      first_name: Вадим
+      patronymic: Юрьевич
+      can_be_on_duty: false
+      completed_duties: 0
+      usually_goes_to_sirius: false
+      platoon: 2
+    - last_name: Сергеев
+      first_name: Серей
+      patronymic: Александрович
+      can_be_on_duty: true
+      completed_duties: 0
+      usually_goes_to_sirius: true
+      platoon: 2
+    - last_name: Ромоданов
+      first_name: Денис
+      patronymic: Денисович
+      can_be_on_duty: false
+      completed_duties: 0
+      usually_goes_to_sirius: true
+      platoon: 2
+    - last_name: Чувашев
+      first_name: Данил
+      patronymic: Андреевич
+      can_be_on_duty: false
+      completed_duties: 0
+      usually_goes_to_sirius: true
+      platoon: 2

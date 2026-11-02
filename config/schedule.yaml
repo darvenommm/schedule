@@ -1,0 +1,31 @@
+year: 2026
+month: 12
+
+people_file: people.yaml
+output_file: ../output/duties-{year:04d}-{month:02d}.xlsx
+
+solver:
+    name: cp-sat
+    time_limit_seconds: 300
+    free_search: false
+    random_seed: null
+    processes: 4
+    optimisation_level: 1
+    require_optimal: false
+
+preferences:
+    preferred_gap_days: 5
+    spacing_weight: 1
+    balance_weight: 10
+    duty_role_weight: 20
+    cleaning_preferred_gap_days: 3
+    cleaning_spacing_weight: 1
+    cleaning_balance_weight: 10
+
+cleaning:
+    enabled: true
+
+previous_month_last_day:
+    - Роганов Егор Владимирович
+    - Латута Дмитрий Юрьевич
+    - Чувашев Данил Андреевич

@@ -1,0 +1,26 @@
+[project]
+name = "schedure"
+version = "0.1.0"
+description = "Совместное составление расписаний нарядов и уборок с экспортом в Excel"
+readme = "README.md"
+authors = [
+    { name = "Romodanov Denis", email = "darvenommm@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "minizinc>=0.10.0",
+    "openpyxl>=3.1.5",
+    "pydantic>=2.14.2",
+    "pyyaml>=6.0.3",
+]
+
+[project.scripts]
+schedure = "src.__main__:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "src"
+module-root = ""
